@@ -1,0 +1,28 @@
+
+Goals:
+
+To be proficient in the ff:
+1.  Pure PHP
+    a. AJAX 
+    b. JQuery
+    c. Requests
+    d. Query 
+    e. DB Connection
+
+2.  Plain Javascript
+    a. Requests
+
+3. Laravel
+
+4. React
+    a. Axios
+
+5. Vue
+
+5. MySQL
+6. AWS Amplify
+    a. React Native - typescript
+    b. GraphQL
+7. AWS Cloud Pratitioner
+
+

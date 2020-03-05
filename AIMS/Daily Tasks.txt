@@ -1,0 +1,16 @@
+Tasks:
+
+Create:
+1. A full-stack web with task lister. Also includes daily history.
+   must be stored in local db.
+
+Review: 
+1. AWS Cloud Practitioner
+2. Php, Laravel
+3. React, React Native
+4. 
+
+
+Immediate:
+1. study api route in laravel
+2. react preset
