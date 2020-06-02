@@ -1,0 +1,75 @@
+** **
+Account Root User Credentials - (main account)
+
+IAM Policy
+    --> IAM User
+        - a person or a service
+        - default, no permissions
+        Access Key : 
+            Access Key Id 
+            Secret Access Key
+    --> IAM Groups
+        - attach a policy
+        - you cannot nest groups (groups within groups)
+        -
+    --> IAM Role
+        - create role just like you are using a user account
+        - you can assign this to users and services (ec2, s3, etc.)
+        - you can delegate permissions using this
+
+    --> I AM Policy
+        - written in JSON , key value pair
+        - default, all permission are implicitly denied
+        - I AM policy simulator
+
+    * always assign the least privilege
+
+Multi Factor Authentication
+
+Identity Federation
+
+API Keys (Programmatic Keys)
+
+
+** Authentication Methods **
+    1. Access Key : 
+        Access Key Id - 
+        Secret Access Key - can only be seen once
+    
+    2. I AM Console Password from AWS Management Console (I AM User)
+
+    3. Signing Certificate - uncommon
+
+** Multifactor Authentication ** 
+
+    something that you know: Password
+
+    something that you have:  Phone
+        - Virtual MFA - Phone
+        - Physical MFA - Flashdrive
+
+    something that you are: fingerprint, retina scan etc.
+
+** AWS Security Token Service (STS) **
+    - a global service
+    --> limited, temporary privilege credentials 
+    --> 
+
+** I AM Best Practices **
+    - lock away AWS root user access keys
+    - use groups to assing permissions
+    - Use AWS defined policies when possible
+    - Grant least privilege
+    - Configure strong password policy for users
+    - Enable MFA for ALL users
+    - Use roles for applications that run on AWS EC2 instances
+    - rotate credentials regularly
+    - remove unnecessary credentials
+    - Use policy condition for extra Security
+    - monitor activity in your AWS Account
+
+** AWS Exam Cram **
+
+
+ARN - Amazon Resource Name
+    

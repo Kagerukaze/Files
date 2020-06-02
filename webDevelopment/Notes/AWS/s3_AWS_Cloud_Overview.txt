@@ -1,0 +1,24 @@
+AWS Global Infrastructure
+    Region
+    Availability zones
+    Metropolitan Region
+
+AWS Pricing
+    Compute
+    Storage 
+    Outbound data transfer
+
+    On demand
+    Dedicated Instances
+    Spot Instances
+    Reservation
+        No upfront
+        Partial upfront
+        All upfront
+
+
+AWS Acceptable use policy
+
+DC- data center
+VPC  - virtual private cloud
+
